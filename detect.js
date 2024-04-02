@@ -1,4 +1,4 @@
-fetch("https://scratchdb.lefty.one/v3/user/info/god286").then((response) => {
+fetch("https://scratchdb.lefty.one/v3/forum/user/info/god286").then((response) => {
     if (response.ok) {
         return response.json();
     }
