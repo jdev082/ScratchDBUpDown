@@ -1,0 +1,4 @@
+if (!localStorage.getItem('privacy')) {
+    alert("This web page uses analytics via 'https://counter.dev'. The data that is collected is as follows: Country, Device form factor, Refferer (if brought here via a link, the website that link was on., Operating System/Platform, Browser, Language, Display Resolution, Time, and date. I CANNOT see more personal identifiers such as IP addresses. The host of 'https://counter.dev' may be able to see additional information which could be listed in their privacy policy. This data is used exclusively for monitoring/ keeping track of the popularity and usage of the page. This data is not used for any purpose outside of basic usage analyzation and is not shared with a third party. IF YOU DO NOT WANT THIS INFORMATION TO BE COLLECTED, YOU CAN CLOSE THE TAB AS THE DATA IS SENT ONLY AFTER THIS PROMPT. OTHERWISE, PRESS OK TO PROCEED.")
+    localStorage.setItem('privacy', 'true')
+}
