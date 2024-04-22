@@ -1,28 +1,10 @@
-html {
-    font-size: 16pt;
-}
-
 body { 
     background-color: lightgreen;
 }
 
 p {
-    font-size: 2em;
+    font-size: 35pt;
     font-family: system-ui;
     color: white;
     margin: 0 auto;
-}
-
-#banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-#banner p {
-    font-size: 1.1em;
-}
-
-#banner h1 {
-    font-size: 1.5em;
 }
